@@ -56,4 +56,22 @@ _________
   - ![System Architecture photo](images/abstraction_air.jpeg)
   - ![System Architecture photo](images/silver_air.jpeg)
   - ![System Architecture photo](images/gold_air.jpeg)
+---------
 - ### The following questions were received from the business
+  - **What is your total order intake in each product category across**
+    **the three Quarter of 2018?**
+  - ![System Architecture photo](images/question_1.png)
+  ---------
+- ### Which are the 3 categories with the highest score in reviews?
+  - ![System Architecture photo](images/Question_2.png)
+  ---------
+- ### What is the average order volume per quarter in 2018?
+  - ![System Architecture photo](images/Question_3.png)
+-----------
+- ### In the final the tools and technologies were applied:
+  - **Ingestion: Airflow tasks that load data into HDFS.**
+  - **Storage: Hadoop Distributed File System (HDFS) for the data lake.**
+  - **Processing: PySpark for data transformation (ETL jobs).**
+  - **Warehousing: Apache Hive external tables.**
+  - **Data Modeling: Star schema with Fact and Dimension tables.**
+  - **Orchestration: Apache Airflow for customizing Workflow.**
